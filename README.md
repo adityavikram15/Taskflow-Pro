@@ -3,12 +3,22 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Django](https://img.shields.io/badge/django-%23092e20.svg?style=for-the-badge&logo=django&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 ---
 
+## 🌐 Live Demo
+
+| | URL |
+|---|---|
+| 🖥️ **Frontend** | [pro-taskflow-pro.netlify.app](https://pro-taskflow-pro.netlify.app) |
+| ⚙️ **Backend API** | [taskflow-pro-b8a2.onrender.com/api/tasks](https://taskflow-pro-b8a2.onrender.com/api/tasks/) |
+
+---
+
 ### 🌍 Language / Idioma
+
 [Versión en Español](#español) | [English Version](#english)
 
 ---
@@ -19,6 +29,7 @@
 Aplicación web Full-Stack avanzada para la gestión de tareas, con una interfaz dinámica y un backend robusto basado en APIs REST.
 
 ### 📋 Descripción
+
 Esta aplicación permite:
 - **Gestionar** tareas con un flujo completo de CRUD (Crear, Leer, Actualizar, Borrar).
 - **Organizar** mediante un sistema de prioridades y etiquetas (Tags) personalizadas.
@@ -28,7 +39,7 @@ Esta aplicación permite:
 ### ✨ Características
 1. **Interfaz Intuitiva**: Desarrollada con React y animaciones fluidas mediante Framer Motion.
 2. **API REST**: Backend potente construido con Django REST Framework para una comunicación eficiente.
-3. **Persistencia de Datos**: Gestión de base de datos relacional para asegurar la integridad de la información.
+3. **Persistencia de Datos**: Base de datos PostgreSQL en la nube (Supabase) para asegurar la integridad de la información.
 
 ### 🎯 Casos de Uso
 - Organización de flujos de trabajo personales o de equipo.
@@ -43,6 +54,7 @@ Esta aplicación permite:
 Advanced Full-Stack web application for task management, featuring a dynamic interface and a robust backend based on REST APIs.
 
 ### 📋 Description
+
 This application allows users to:
 - **Manage** tasks with a complete CRUD workflow (Create, Read, Update, Delete).
 - **Organize** through a system of priorities and custom tags.
@@ -52,7 +64,7 @@ This application allows users to:
 ### ✨ Features
 1. **Intuitive Interface**: Built with React and fluid animations using Framer Motion.
 2. **REST API**: Powerful backend built with Django REST Framework for efficient communication.
-3. **Data Persistence**: Relational database management to ensure data integrity.
+3. **Data Persistence**: PostgreSQL database hosted on Supabase for reliable data integrity.
 
 ### 🎯 Use Cases
 - Personal or team workflow organization.
