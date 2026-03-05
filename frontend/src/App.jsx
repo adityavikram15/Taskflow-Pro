@@ -32,7 +32,8 @@ function App() {
     category: "General",
   });
 
-  const API_URL = "http://127.0.0.1:8000/api/tasks/";
+  const API_URL =
+    import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api/tasks/";
 
   // Sincronizo con el backend añadiendo un timestamp para evitar datos antiguos por caché
   const fetchTasks = () => {
