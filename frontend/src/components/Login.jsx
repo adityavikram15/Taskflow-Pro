@@ -8,6 +8,7 @@ const BASE_URL =
 
 export default function Login({ onLogin, goToRegister }) {
   const [formData, setFormData] = useState({ username: "", password: "" });
+  const [rememberMe, setRememberMe] = useState(false);
   const [error, setError] = useState("");
 
   const handleSubmit = async (e) => {
@@ -15,8 +16,13 @@ export default function Login({ onLogin, goToRegister }) {
     try {
       // Solicito el par de tokens JWT al backend
       const res = await axios.post(`${BASE_URL}auth/login/`, formData);
-      localStorage.setItem("access", res.data.access);
-      localStorage.setItem("refresh", res.data.refresh);
+
+      // Si marcó "Recuérdame" guardo en localStorage (persiste al cerrar el navegador)
+      // Si no, guardo en sessionStorage (se borra al cerrar el navegador)
+      const storage = rememberMe ? localStorage : sessionStorage;
+      storage.setItem("access", res.data.access);
+      storage.setItem("refresh", res.data.refresh);
+
       onLogin(res.data.access);
     } catch {
       setError("Usuario o contraseña incorrectos");
@@ -58,6 +64,38 @@ export default function Login({ onLogin, goToRegister }) {
               setFormData({ ...formData, password: e.target.value })
             }
           />
+
+          {/* Checkbox "Recuérdame": controla si la sesión persiste o no al cerrar el navegador */}
+          <label className="flex items-center gap-3 cursor-pointer select-none">
+            <div
+              onClick={() => setRememberMe(!rememberMe)}
+              className={`w-5 h-5 rounded-md border-2 flex items-center justify-center transition-all ${
+                rememberMe
+                  ? "bg-blue-600 border-blue-600"
+                  : "bg-white border-slate-300"
+              }`}
+            >
+              {rememberMe && (
+                <svg
+                  className="w-3 h-3 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={3}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              )}
+            </div>
+            <span className="text-sm text-slate-500 font-medium">
+              Recuérdame
+            </span>
+          </label>
+
           <button
             onClick={handleSubmit}
             className="w-full bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-2xl font-black text-sm transition-all shadow-lg active:scale-95"

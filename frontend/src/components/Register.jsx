@@ -47,7 +47,9 @@ export default function Register({ onRegister, goToLogin }) {
         )}
 
         <div className="space-y-4">
+          {/* autoComplete="off" evita que el navegador rellene con datos de otro usuario */}
           <input
+            autoComplete="off"
             className="w-full bg-slate-50 p-4 rounded-2xl outline-none text-sm font-medium"
             placeholder="Usuario"
             value={formData.username}
@@ -57,6 +59,7 @@ export default function Register({ onRegister, goToLogin }) {
           />
           <input
             type="email"
+            autoComplete="off"
             className="w-full bg-slate-50 p-4 rounded-2xl outline-none text-sm font-medium"
             placeholder="Email"
             value={formData.email}
@@ -64,8 +67,10 @@ export default function Register({ onRegister, goToLogin }) {
               setFormData({ ...formData, email: e.target.value })
             }
           />
+          {/* new-password indica al navegador que es un campo nuevo, no un login existente */}
           <input
             type="password"
+            autoComplete="new-password"
             className="w-full bg-slate-50 p-4 rounded-2xl outline-none text-sm font-medium"
             placeholder="Contraseña"
             value={formData.password}
